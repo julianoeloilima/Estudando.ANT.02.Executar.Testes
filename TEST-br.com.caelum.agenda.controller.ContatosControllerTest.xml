@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="DESKTOP-UIOQLRT" name="br.com.caelum.agenda.controller.ContatosControllerTest" skipped="0" tests="2" time="0.33" timestamp="2017-01-31T16:41:00">
+  <properties>
+    <property name="ant.project.invoked-targets" value="rodar-testes" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin" />
+    <property name="java.vm.version" value="25.112-b15" />
+    <property name="ant.library.dir" value="C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.0 compiled on December 27 2016" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="BR" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="C:\git\Estudando.ANT.02.Web.Project" />
+    <property name="java.runtime.version" value="1.8.0_112-b15" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="C:\git\Estudando.ANT.02.Web.Project" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="compilar" />
+    <property name="java.io.tmpdir" value="C:\Users\julia\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="ant.home" value="C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\bin\.." />
+    <property name="ant.project.name" value="agenda" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\julia\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\bin;C:\Users\julia\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\julia\AppData\Roaming\npm;C:\Users\julia\AppData\Local\.meteor\;." />
+    <property name="java.class.version" value="52.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="10.0" />
+    <property name="ant.file" value="C:\git\Estudando.ANT.02.Web.Project\build.xml" />
+    <property name="user.home" value="C:\Users\julia" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="user.name" value="juliano" />
+    <property name="java.class.path" value="C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\bin\..\lib\ant-launcher.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-antlr.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-apache-bcel.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-apache-bsf.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-apache-log4j.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-apache-oro.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-apache-regexp.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-apache-resolver.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-apache-xalan2.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-commons-logging.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-commons-net.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-jai.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-javamail.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-jdepend.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-jmf.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-jsch.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-junit.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-junit4.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-launcher.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-netrexx.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-swing.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant-testutil.jar;C:\desenv\apache-ant-1.10.0-bin\apache-ant-1.10.0\lib\ant.jar;C:\Program Files\Java\jdk1.8.0_112\lib\tools.jar" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher rodar-testes" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_112\jre" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="user.language" value="pt" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_112" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="ant.file.type.agenda" value="file" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\classes" />
+    <property name="sun.stderr.encoding" value="cp850" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.stdout.encoding" value="cp850" />
+    <property name="ant.file.type" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="ant.file.agenda" value="C:\git\Estudando.ANT.02.Web.Project\build.xml" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="br.com.caelum.agenda.controller.ContatosControllerTest" name="listarContatos" time="0.182" />
+  <testcase classname="br.com.caelum.agenda.controller.ContatosControllerTest" name="salvandoContato" time="0.122" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (br.com.caelum.vraptor.proxy.CglibProxifier).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>
